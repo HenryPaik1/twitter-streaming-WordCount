@@ -1,4 +1,5 @@
 # Count Words from Twitter Using SparkStream
+- Prerequisite: spark 2.4.0, kafka 2.2
 - **Producer**: `kafka-connect-twitter`(https://github.com/Eneco/kafka-connect-twitter)
 	- it has no more update and need to edit few file:
 		- `connect-sink-standalone.properties`
@@ -11,7 +12,6 @@
 		- `kafka_console_mode.py`: display WordsCount on local console
 		- `app.py`: make dashboard for WordsCount 
 
-## Prerequisite: spark 2.4.0, kafka 2.2
 ## How to run?
 clone repo, fill `twitter-source.properties` and follow code below:
 ~~~
