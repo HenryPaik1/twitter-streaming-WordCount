@@ -9,8 +9,8 @@
 	- I made repo with modified file for the purpose of study 
 - **Consumer**
 	- SparkStream
-		- `kafka_console_mode.py`: display WordsCount on local console
-		- `app.py`: make dashboard for WordsCount 
+		- `kafka_sparkstream.py`: processing data by spark_stream
+- `kafka_app.py`: deploy flask & dash server 
 - Result
 <img src="pic.png" width=2000>
 
