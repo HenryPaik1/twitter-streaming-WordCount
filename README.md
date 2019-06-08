@@ -12,7 +12,7 @@
 		- `kafka_console_mode.py`: display WordsCount on local console
 		- `app.py`: make dashboard for WordsCount 
 - Result
-<img src="pic.png" width=500>
+<img src="pic.png" width=1000>
 
 ## Implementation
 Clone this repo, fill `twitter-source.properties` with your info and follow the code below:
